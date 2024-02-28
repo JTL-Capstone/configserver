@@ -8,8 +8,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DalistaaA/configrepo
-#          default-profile: default
-#          skipSslValidation: true
-#          defaultLabel: main
-#          clone-on-start: true
+          uri: https://github.com/JTL-Capstone/configrepo
