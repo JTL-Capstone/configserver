@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DalistaaA/configrepo
+#          default-profile: default
+#          skipSslValidation: true
+#          defaultLabel: main
+#          clone-on-start: true
